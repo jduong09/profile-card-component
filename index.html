@@ -9,7 +9,10 @@
   <title>Frontend Mentor | Profile card component</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -21,24 +24,29 @@
     <div class="profile-header">
     </div>
     <section class="profile-detail">
-      <img />
-      <ul>
-        <li>Victor Crest</li>
-        <li>26</li>
+      <img id="profile-image" src="images/image-victor.jpg" alt="image-victor" />
+      <ul class="profile-name">
+        <li><strong>Victor Crest</strong><span>26</span></li>
         <li>London</li>
       </ul>
-      <ul>
+      <ul class="profile-metrics">
         <li>
-          <strong>80K</strong>
-          Followers
+          <ul>
+            <li><strong>80K</strong></li>
+            <li>Followers</li>
+          </ul>
         </li>
         <li>
-          <strong>803K</strong>
-          Likes
+          <ul>
+            <li><strong>803K</strong></li>
+            <li>Likes</li>          
+          </ul>
         </li>
         <li>
-          <strong>1.4K</strong>
-          Photos
+          <ul>
+            <li> <strong>1.4K</strong></li>
+            <li>Photos</li>
+          </ul>
         </li>
       </ul>
     </section>
